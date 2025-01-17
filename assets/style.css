@@ -100,11 +100,21 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+.nav-pills .nav-link.active-tag{ /* ajout de la classe pour activer la surbrillance du bouton*/
+	color: #fff;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
+.nav-link {
+	cursor: pointer; /* Assure que le lien est cliquable */
+	transition: all 0.3s ease; /* Ajoute une transition douce */
+  }
 .nav-pills .nav-link {
 	color: #000
 }
