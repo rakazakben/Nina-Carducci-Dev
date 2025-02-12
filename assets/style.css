@@ -103,12 +103,14 @@ body {
 }
 .nav-pills .nav-link.active-tag{ /* ajout de la classe pour activer la surbrillance du bouton*/
 	color: #fff;
-	background-color: #BEB45A;
+	/*background-color: #BEB45A;*/
+	background-color: #1C6474;
 	border-radius:0 ;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/*background-color: #BEB45A;*/
+	background-color: #1C6474;
 	border-radius:0 ;
 }
 
