@@ -8,7 +8,9 @@
 		  "@context": "https://schema.org",
 		  "@type": "LocalBusiness",
 		  "name": "Nina Carducci",
-		  "jobTitle": "Photographe Freelance",
+		  "image": "assets\images\nina.png",
+		  "description": "Photographe freelance à Bordeaux, spécialisée en portraits, mariages et photographie d'entreprise.",
+		  "telephone": "05 56 67 78 89",
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
@@ -16,19 +18,44 @@
 			"postalCode": "33200",
 			"addressCountry": "FR"
 		  },
-		  "telephone": "05 56 67 78 89",
-		  "contactPoint": {
-			"@type": "ContactPoint",
-			"telephone": "05 56 67 78 89",
-			"contactType": "customer service",
-			"availableLanguage": ["French"],
-			"hoursAvailable": {
+		  "openingHoursSpecification": [
+			{
 			  "@type": "OpeningHoursSpecification",
-			  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			  "dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			  ],
 			  "opens": "10:00",
 			  "closes": "19:00"
 			}
-		  },
+		  ],
+		  "priceRange": "€€ - €€€",
+		  "offers": [
+    	{
+      		"@type": "Offer",
+      		"name": "Shooting photo",
+      		"price": "350",
+      		"priceCurrency": "EUR",
+      		"availability": "https://schema.org/InStock"
+    	},
+    	{
+      		"@type": "Offer",
+      		"name": "Retouches",
+      		"price": "50",
+      		"priceCurrency": "EUR",
+      		"availability": "https://schema.org/InStock"
+    	},
+		{
+			"@type": "Offer",
+			"name": "Album photos",
+			"price": "400",
+			"priceCurrency": "EUR",
+			"availability": "https://schema.org/InStock"
+		}
+  	],
 		  "sameAs": [
 			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
 		  ]
