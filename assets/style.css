@@ -126,7 +126,9 @@ body {
 	background-color: #1C6474;
 	border-radius:0 ;
 }
-
+.carousel-control-next, .carousel-control-prev{
+	color:black;
+}
 .nav-link {
 	cursor: pointer; /* Assure que le lien est cliquable */
 	transition: all 0.3s ease; /* Ajoute une transition douce */
